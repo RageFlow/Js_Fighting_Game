@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fighting Game!</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="game-container">
+    <canvas id="canvas"></canvas>
+    <div id="game-menu">
+      <div>
+        <div id="player1Hp">100%</div>
+      </div>
+      <div><span id="timer">VS</span></div>
+      <div>
+        <div id="player2Hp">100%</div>
+      </div>
+    </div>
+    <div id="FightText"></div>
+    <div id="game-info">
+      <div>
+        <h4>Player 1 Skills</h4>
+        <div id="player1Skills" class="playerSkills"></div>
+      </div>
+      <div>
+        <h4>Player 2 Skills</h4>
+        <div id="player2Skills" class="playerSkills"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./Classes/classes.js"></script>
+  <script src="./Classes/utils.js"></script>
+  <script src="./Classes/lookup.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
